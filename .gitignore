@@ -1,0 +1,4 @@
+venv/
+db.json
+token.json
+__pycache__/

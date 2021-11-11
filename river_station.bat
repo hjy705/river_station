@@ -1,0 +1,1 @@
+cd C:\Users\User\Desktop\river_station && .\venv\Scripts\activate && python run.py
