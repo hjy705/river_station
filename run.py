@@ -33,7 +33,6 @@ try:
     api.request_basin_rain_area(token_use)
     api.request_basin_depth_boundary(token_use)
     
-
     # 資料庫連線
     conn = psycopg2.connect(database=db["database"], user=db["user"] , password=db["password"], host=db["host"], port=db["port"])
     cur = conn.cursor()
